@@ -7,7 +7,6 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-    
 <style>
 * {
     margin: 0;
@@ -17,8 +16,8 @@
 }
 
 body {
-    background: linear-gradient(135deg, #fff1f2, #ffe4e6);
-    color: #1f2937;
+    background: linear-gradient(135deg, #e5e7eb, #fff1f2);
+    color: #111827;
 }
 
 header {
@@ -27,18 +26,18 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, #f9a8d4, #fbcfe8);
+    background: radial-gradient(circle, #f9a8d4, #374151);
     text-align: center;
 }
 
 header h1 {
     font-size: 3rem;
-    color: #be185d;
+    color: #ffffff;
 }
 
 header p {
     margin-top: 10px;
-    color: #6b7280;
+    color: #e5e7eb;
 }
 
 .btn {
@@ -50,10 +49,12 @@ header p {
     cursor: pointer;
     color: white;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .btn:hover {
     background: #ec4899;
+    transform: scale(1.05);
 }
 
 .container {
@@ -67,7 +68,7 @@ section {
 }
 
 h2 {
-    color: #be185d;
+    color: #374151;
     margin-bottom: 15px;
 }
 
@@ -76,7 +77,13 @@ h2 {
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
 }
 
 .skills span {
@@ -85,13 +92,15 @@ h2 {
     padding: 8px 15px;
     background: #f9a8d4;
     border-radius: 20px;
-    color: #1f2937;
+    color: #111827;
+    font-weight: 500;
 }
 
 footer {
     text-align: center;
     padding: 20px;
     color: #6b7280;
+    border-top: 1px solid #d1d5db;
 }
 </style>
 </head>
@@ -109,7 +118,7 @@ footer {
 <section>
     <h2>About Me</h2>
     <div class="card">
-        I am a Data Science student passionate about Machine Learning, Data Analysis, and building real-world applications.
+        I am a Data Science student passionate about Machine Learning, Data Analysis, and building real-world applications using modern technology.
     </div>
 </section>
 
@@ -153,7 +162,7 @@ footer {
 </div>
 
 <footer>
-    © 2026 Nusrath Ahmed
+    © 2026 Nusrath Ahmed | Data Science Portfolio
 </footer>
 
 <script>
